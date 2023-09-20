@@ -1,0 +1,12 @@
+.basic-image {
+  max-width: 5rem;
+}
+.svg-layout {
+  max-width: 5rem;
+}
+.blue-svg {
+  fill: blue;
+}
+.red-svg {
+  fill: red;
+}
