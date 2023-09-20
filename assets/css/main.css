@@ -20,12 +20,15 @@
   max-width: 5rem;
   max-height: 5rem;
 }
+/* A simple transition can be done by setting the property, speed, and timing function */
 .blue-svg {
   transition: fill 500ms ease-in-out;
 }
+/* Then set anything you want to change on hover as you want it to be changed */
 .blue-svg:hover {
   fill: blue;
 }
+/* using the all selector in transform, you can make multiple properties change */
 .scale-red-svg {
   transition: all 1s ease;
 }
@@ -33,6 +36,8 @@
   transform: scale(2);
   fill: red;
 }
+
+/* The transform-origin and transform-box keep the head spinning on a central point */
 .head {
   transition: transform 2s ease;
   transform-origin: center;
