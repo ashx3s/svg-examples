@@ -1,12 +1,43 @@
 .basic-image {
-  max-width: 5rem;
+  height: 10rem;
+  width: 10rem;
 }
-.svg-layout {
+.header {
+  display: flex;
+  flex-direction: column;
+}
+.card-layout {
+  display: flex;
+}
+.card {
+  max-width: 10rem;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 12px;
+  border: 2px dotted;
+}
+.svg-size {
   max-width: 5rem;
+  max-height: 5rem;
 }
 .blue-svg {
+  transition: fill 500ms ease-in-out;
+}
+.blue-svg:hover {
   fill: blue;
 }
-.red-svg {
+.scale-red-svg {
+  transition: all 1s ease;
+}
+.scale-red-svg:hover {
+  transform: scale(2);
   fill: red;
+}
+.head {
+  transition: transform 2s ease;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+.head:hover {
+  transform: rotate(180deg);
 }
