@@ -2,6 +2,7 @@
   height: 10rem;
   width: 10rem;
 }
+
 .header {
   display: flex;
   flex-direction: column;
@@ -22,7 +23,7 @@
 }
 /* A simple transition can be done by setting the property, speed, and timing function */
 .blue-svg {
-  transition: fill 500ms ease-in-out;
+  transition: fill 300ms ease-out;
 }
 /* Then set anything you want to change on hover as you want it to be changed */
 .blue-svg:hover {
